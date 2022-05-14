@@ -1,0 +1,26 @@
+.comment {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: 5px;
+  padding: 5px;
+  width: 200px;
+  box-shadow: 0px 2px 4px #eee;
+  margin: 10px auto;
+}
+.user__image {
+  height: 50px;
+}
+.comment__details {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-column-gap: 5px;
+}
+.comment__userName {
+  font-weight: bold;
+}
+.comment__time {
+  color: #ccc;
+}
+.comment__text {
+  grid-column: 1 / -1;
+}
